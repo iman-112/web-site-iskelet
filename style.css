@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #5cde;
+    width: 100%;
+    height: 50px;
+
+}
+.reklamlar{
+    width: 100%;
+    border: 1px solid green;
+    text-align: center;
+    height: 100px;
+    border-radius: 1rem;
+}
+nav .links{
+ display: flex;
+ justify-content: space-evenly;
+
+}
+.link{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.705);
+    font-size: 1.5rem;
+    padding: .5rem;
+    transition: .3s all ease;
+}
+.link:hover{
+    color:brown;
+   
+}
+.container{
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
+}
+.teref{
+    border: 1px solid gray;
+    margin-top: 2rem;
+    width: 24%;
+    height: 80vh;
+    border-radius: 1rem;
+}
+.teref{
+    width: 24% ;
+    height: 80vh;
+    margin-top: 2rem;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+.akis{
+    width:50% ;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 1rem;
+}
