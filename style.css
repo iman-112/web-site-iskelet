@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    box-shadow: 2px 2px 2px 2px orangered;
+}
 nav{
-    background-color: #5cde;
+    background-color: rgb(85, 149, 221);
     width: 100%;
     height: 50px;
+    position: sticky;
+    top: 0;
 
 }
 .reklamlar{
@@ -46,7 +51,8 @@ nav .links{
     border-radius: 1rem;
 }
 .teref{
-    width: 24% ;
+    box-shadow: 2px 5px 20px 4px rgb(18, 85, 129);
+    width: 15% ;
     height: 80vh;
     margin-top: 2rem;
     text-align: center;
@@ -54,12 +60,17 @@ nav .links{
     border-radius: 1rem;
 }
 .akis{
-    width:50% ;
+    width:67% ;
+    height: 90vh;
 }
 footer{
+   display: flex;
     width: 100%;
     height: 100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
     border: 1px solid red;
-    text-align: center;
+    text-align: center  ;
     border-radius: 1rem;
 }
